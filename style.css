@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,600;1,200&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.container {
+    margin-top: 10px;
+    margin-inline: 20px;
+    width: auto;
+    height: 700px;
+}
+
+.date-container {
+    margin-inline: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.date-container h1 {
+    text-align: center;
+    color: rgb(156, 85, 223);
+    font-size: 50px;
+    margin-inline: 10px;
+}
+
+.date-container p {
+    margin-top: -33px;
+    font-size: 1.30em;
+    text-align: center;
+    margin-inline: 10px;
+}
+
+.card-container {
+    margin-inline: 17px;
+    margin-top: 30px;
+    height: 420px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px gainsboro;
+}
+
+.txt-email,
+.btn,
+.btntwo {
+    border-radius: 6px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.txt-email {
+    padding: 14px 16px;
+    width: 300px;
+    height: 22px;
+    border: 1px solid #dddfe2;
+}
+
+.btn {
+    background-color: #1877f2;
+    border: none;
+    width: 335px;
+    height: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+.btntwo {
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: #42b72a;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+h6 {
+    color: blueviolet;
+    font-size: 13px;
+    font-weight: 10;
+}
+
+.line {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 20px 16px;
+    border-bottom: 1px solid #dadde1;
+}
+
+@media only screen and (min-width: 901px) {
+    .container {
+        max-width: 100%;
+    }
+    .date-container {
+        max-width: 90%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+    }
+    .date-container p {
+        text-align: start;
+        font-size: 1.40em;
+    }
+    .date-container h1 {
+        text-align: start;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .titles-container {
+        padding: 100px 50px 55px 50px;
+        max-width: 500px;
+    }
+    .card-container {
+        margin: 50px 0 0 -100px;
+        max-width: 380px;
+    }
+}

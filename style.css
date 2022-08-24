@@ -95,6 +95,21 @@ h6 {
     border-bottom: 1px solid #dadde1;
 }
 
+.description {
+    text-align: center;
+    margin-inline: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.description p {
+    font-size: 12px;
+}
+
+.description span {
+    font-weight: bold;
+}
+
 @media only screen and (min-width: 901px) {
     .container {
         max-width: 100%;
@@ -110,7 +125,7 @@ h6 {
     .date-container p {
         text-align: start;
         font-size: 1.40em;
-        max-width: 450px;
+        max-width: 500px;
         margin: 0 auto;
     }
     .date-container h1 {
@@ -135,7 +150,14 @@ h6 {
     .btn {
         margin-top: 15px;
     }
-    h6 {
-        margin: 15px;
+    .description {
+        margin: 0;
+        margin-top: 10px;
+        max-width: 365px;
+        margin-left: 21px;
+    }
+    .description p {
+        text-align: center;
+        font-size: 13px;
     }
 }
